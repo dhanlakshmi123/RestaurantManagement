@@ -1,0 +1,63 @@
+
+<div class="resto">
+    <div class="resto_main">
+
+        <div class="resto_tab">
+            <a routerLink="/insert" routerLinkActive="active">Add Restaurant</a>
+        </div>
+
+        <div class="resto_tab">
+            <a routerLink="/update" routerLinkActive="active">Update Restaurant</a>
+        </div>
+
+
+        <div class="resto_tab">
+            <a routerLink="/delete" routerLinkActive="active">Delete Restaurant</a>
+        </div>
+
+        <div class="resto_tab">
+            <a routerLink="/view" routerLinkActive="active">View Restaurant</a>
+        </div>
+
+    </div>
+</div>
+
+<div class="insert">
+    <div class="insert_main">
+
+        <div class="insert_form">
+            <h3> <span>View All</span> Restaurant </h3>
+            
+        
+            <table>
+                <thead>
+                        <tr>
+                            <th>Restaurant ID</th>
+                            <th>Restaurant Name</th>
+                            <th>Owner Name </th>
+                            <th>Address</th>
+                            <th>Contact No</th>
+                            <th>Speciality</th>
+                        </tr>
+                </thead>
+                <tbody>
+                        <tr *ngFor="let d of data">
+                            <td>{{d.restoid}}</td>
+                            <td>{{d.restoname}}</td>
+                            <td>{{d.ownername}}</td>
+                            <td>{{d.address}}</td>
+                            <td>{{d.contactno}}</td>
+                            <td>{{d.special}}</td>
+                        </tr>
+                </tbody>
+            </table>   
+        
+            
+        
+        </div>
+
+    </div>
+</div>
+
+
+

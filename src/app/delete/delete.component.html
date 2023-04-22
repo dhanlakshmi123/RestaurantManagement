@@ -1,0 +1,46 @@
+
+<div class="resto">
+    <div class="resto_main">
+
+        <div class="resto_tab">
+            <a routerLink="/insert" routerLinkActive="active">Add Restaurant</a>
+        </div>
+
+        <div class="resto_tab">
+            <a routerLink="/update" routerLinkActive="active">Update Restaurant</a>
+        </div>
+
+
+        <div class="resto_tab">
+            <a routerLink="/delete" routerLinkActive="active">Delete Restaurant</a>
+        </div>
+
+        <div class="resto_tab">
+            <a routerLink="/view" routerLinkActive="active">View Restaurant</a>
+        </div>
+
+    </div>
+</div>
+
+<div class="insert">
+    <div class="insert_main">
+
+        <div class="insert_form">
+            <h3> <span>Delete</span> Restaurant </h3>
+            <form #deleteform="ngForm" (ngSubmit)="deletedata(deleteform)">
+        
+                <label for="restoid"> Restaurant ID : </label> <br>
+                <input type="number" name="restoid" id="restoid" #restoid (ngModel)="restoid">
+                <br> <br> <br> <br>
+        
+                
+
+                <button type="submit" value="Delete">Delete</button>
+        
+            </form>
+        
+        </div>
+
+    </div>
+</div>
+

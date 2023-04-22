@@ -1,0 +1,62 @@
+.resto{
+    width: 100%;
+    /* height: 100vh; */
+    padding: 70px 0;
+}
+
+.resto .resto_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.resto .resto_main .resto_tab{
+    width: 100px;
+    position: relative;
+    top: 60px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 2px rgb(93, 39, 1) solid;
+    background-color: rgb(246, 106, 6);
+    border-radius: 5px;
+}
+
+.resto .resto_main .resto_tab a{
+    text-decoration: none;
+    color: white;
+}
+
+.insert{
+    width: 100%;
+    /* height: 100vh; */
+    padding: 70px 0;
+}
+
+.insert .insert_main{
+    align-items: center;
+    justify-content: space-around;
+    top: 100px;
+    margin-top: 0px;
+    padding-left: 0px;
+    width: 100%;
+    display: flex;
+}
+
+.insert .insert_main .insert_form h3{
+    font-size: 45px;
+    font-family: mv boli;
+    
+}
+
+.insert .insert_main .insert_form h3 span{
+    font-family: mv boli;
+    color: rgb(240, 103, 6);
+}
+
+th, td, tr{
+    border-color: orangered;
+    border: 0.5px solid;
+    padding: 15px;
+}

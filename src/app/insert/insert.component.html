@@ -1,0 +1,63 @@
+
+<div class="resto">
+    <div class="resto_main">
+
+        <div class="resto_tab">
+            <a routerLink="/insert" routerLinkActive="active">Add Restaurant</a>
+        </div>
+
+        <div class="resto_tab">
+            <a routerLink="/update" routerLinkActive="active">Update Restaurant</a>
+        </div>
+
+
+        <div class="resto_tab">
+            <a routerLink="/delete" routerLinkActive="active">Delete Restaurant</a>
+        </div>
+
+        <div class="resto_tab">
+            <a routerLink="/view" routerLinkActive="active">View Restaurant</a>
+        </div>
+
+    </div>
+</div>
+
+<div class="insert">
+    <div class="insert_main">
+
+        <div class="insert_form">
+            <h3> <span>Add</span> Restaurant </h3>
+            <form #insertform="ngForm" (ngSubmit)="insertdata(insertform)">
+        
+                <label for="restoid"> Restaurant ID : </label> <br>
+                <input type="number" name="restoid" id="restoid" #restoid (ngModel)="restoid">
+                <br> <br>
+        
+                <label for="restoname"> Restaurant Name : </label> <br>
+                <input type="text" name="restoname" id="restoname" #restoname (ngModel)="restoname">
+                <br> <br>
+
+                <label for="ownername"> Owner's Name : </label><br>
+                <input type="text" name="ownername" id="ownername" #ownername (ngModel)="ownername">
+                <br> <br>
+
+                <label for="address"> Address : </label><br>
+                <input type="text" name="address" id="address" #address (ngModel)="address">
+                <br> <br>
+        
+                <label for="contactno"> Contact No : </label> <br>
+                <input type="number" name="contactno" id="contactno" #contactno (ngModel)="contactno">
+                <br> <br>
+        
+                <label for="special"> Special : </label> <br>
+                <input type="text" name="special" id="special" #special (ngModel)="special">
+                <br> <br> 
+
+                <button type="submit" value="Add">Add</button>
+        
+            </form>
+        
+        </div>
+
+    </div>
+</div>

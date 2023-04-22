@@ -1,0 +1,121 @@
+.contact{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+}
+
+.contact .contact_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 130px;
+}
+
+.contact .contact_main .image img{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 0px;
+}
+
+.contact .contact_main .image .text p{
+    width: 650px;
+    text-align: justify;
+    margin-right: 30px;
+    line-height: 22px;
+    left: 0;
+    margin-left: 0px;
+    top: 5px;
+    padding-left: 0;
+    align-items: left;
+    font-style: italic;
+}
+
+.contact .contact_main .image .contact_link, .contact_link i{
+   color: rgb(244, 105, 5);
+   font-size: large;
+}
+
+.contact .contact_main .image .contact_link i{
+    color: rgb(244, 105, 5);
+    font-size: large;
+ }
+
+.contact .contact_main .image .contact_link i:hover{
+    color: #9c7104;
+ }
+
+
+.contact .contact_main .contact_form h1{
+    font-size: 55px;
+    position: relative;
+    bottom: 100px;
+    top: 20px;
+}
+
+.contact .contact_main .contact_form h1 span{
+    color: #fac031;
+    margin-right: 15px;
+    font-family: mv boli;
+}
+
+.contact .contact_main .contact_form .contact_text{
+    box-sizing: border-box;
+    margin-top: 30px;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    align-items: center;
+}
+
+.contact .contact_main .contact_form .contact_text label{
+    text-align: center;
+    font-weight: 400;
+    color: rgb(246, 126, 40);
+}
+
+input{
+    border: 2px solid rgb(252, 122, 29);
+    border-radius: 10px;
+    padding: 10px 25px;
+    margin: 0px;
+    width: 300px;
+    text-align: left;   
+}
+
+button {
+    background-color: rgb(248, 125, 2);
+    font-weight: bold;
+    color: rgb(45, 2, 25); 
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid rgba(59, 31, 3, 0.955);
+    border-radius: 7px;
+    padding: 10px 15px;
+    margin: 0px;
+    width: 200px;
+}
+
+input:hover, input:focus-visible, button:hover{
+    background-color:rgb(251, 175, 105);
+}
+
+.footer{
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(245, 106, 6);
+    text-align: center;
+    background-color: none;
+}
+
+.footer:hover{
+    color: rgb(106, 45, 2);
+}
+
+nav a{
+    color: rgb(242, 131, 52);
+}
+
+.contain nav a:hover{
+    color: rgb(144, 63, 6);
+}
